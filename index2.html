@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="/index.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- <div id="cse"></div>
+    <script>
+        const element = React.createElement('h1', {}, "Hello World!..");
+        const root = ReactDOM.createRoot(document.getElementById('cse'));
+        root.render(element);
+    </script> -->
+
+    <!-- <div id="ece"></div>
+    <script>
+        const element=React.createElement('h2',{},'hello uttam yadav');
+        const root=ReactDOM.createRoot(document.getElementById('ece'));
+        root.render(element);
+    </script> -->
+
+    <!-- <div id="ce"></div>
+    <script>
+        const heading=React.createElement('h1',{},'my name is uttam yadav');
+        const root=ReactDOM.createRoot(document.getElementById('ce'));
+        root.render(heading);
+    </script> -->
+
+    <!-- <div id="it"></div>
+    <script>
+        const head=React.createElement('h1',{},'information technology');
+        const root= ReactDOM.createRoot(document.getElementById('it'));
+        root.render(head);
+    </script> -->
+
+    <!-- <div id="ee"></div>
+    <script>
+        const element=React.createElement('h1',{},'Electrical Engineer');
+        const root=ReactDOM.createRoot(document.getElementById('ee'));
+        root.render(element);
+    </script>
+ -->
+    <div id="root"></div>
+    <script>
+        const course = React.createElement('div', { id: 'parents' },
+            React.createElement('div', { id: 'child' },
+                React.createElement('h1', {}, 'nested react')));
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(course);
+
+    </script>
+</body>
+
+</html>

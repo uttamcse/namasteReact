@@ -1,0 +1,16 @@
+/* #cse{
+    color:rgb(84, 73, 228);
+    border: 2px solid rgb(0, 166, 25);
+    background-color: beige;
+} */
+#child2{
+    color:rgb(21, 184, 18);
+    border: 2px solid rgb(39, 28, 198);
+    background-color: rgb(231, 231, 50);
+}
+
+#child1{
+    color:rgb(228, 73, 91);
+    border: 2px solid rgb(248, 47, 255);
+    background-color: rgb(0, 141, 188);
+}
